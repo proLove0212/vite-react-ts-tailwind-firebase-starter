@@ -3,7 +3,7 @@ import Diagram from "./pages/Diagram";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
 const App = () => {
-  return (
+  return ( 
     <BrowserRouter>
       <Switch>
         <Route exact path='/'>
